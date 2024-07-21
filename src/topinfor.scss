@@ -1,0 +1,54 @@
+.top {
+    display: flex;
+    position: relative;
+    background: white;
+    z-index: 44;
+    height:100vh;
+    width: 100%;
+    border: 1px solid greenyellow;
+  }
+  
+  .top .user,
+  .top .invest {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top .user {
+    border-right: 1px solid black;
+  }
+  
+  .top .user input,
+  .top .invest input {
+    width: 90%;
+    height:30px;
+    border-radius: 6px;
+    margin: 3px;
+    border: hidden;
+    border:0.5px solid rgb(116, 116, 198);
+    background-color: whitesmoke;
+  }
+  
+  .top .user button,
+  .top .invest button {
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    color: rgb(9, 9, 17);
+    margin-top: 2px;
+    border: hidden;
+    cursor: pointer;
+  }
+  
+  .top .user button:hover,
+  .top .invest button:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input:focus{
+    border: 0.4px solid blue;
+  }
